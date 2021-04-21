@@ -88,6 +88,10 @@ a {
   transform: rotateY(180deg);
 }
 
+.flip-card:hover .flip-card-front {
+  pointer-events: none;
+}
+
 /* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
