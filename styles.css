@@ -25,7 +25,8 @@ main {
 /* circles */
 .circle1,
 .circle2,
-.circle3 {
+.circle3,
+.circle4 {
   background: white;
   background: linear-gradient(
     to right bottom,
@@ -52,6 +53,12 @@ main {
   width: 20rem;
   top: -10%;
   left: 55%;
+}
+.circle4 {
+  height: 20rem;
+  width: 20rem;
+  top: 65%;
+  left: 20%;
 }
 img {
   width: 12rem;
